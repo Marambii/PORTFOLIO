@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #916464;
+    padding: 10px 20px 10px 20px;
+    color: #f4d7d7;
+}
+
+/* TRRBL (Top, Right, Bottom, Left) */
+/* Top and bottom, right and left */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+.navbar ul li{
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child{
+    margin-right: 0;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ .home {
+    background-color:grey;
+    height: 100vh;
+    text-align: center;
+}
+.home h2 {
+    position: relative;
+    top: 45%;
+    left: 0%;
+    right: 25%;
+
+}
+.About-section {
+    position: relative;
+    text-align: center;
+    height: 40vh;
+    background-color: beige;
+    
+}
+.About-section h2 {
+    font-size: 34px;
+    font-weight: bold
+
+}
+.About-section p {
+    font-size: 20px;
+    text-decoration: dotted;
+}
